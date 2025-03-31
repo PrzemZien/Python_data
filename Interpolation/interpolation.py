@@ -15,7 +15,7 @@ y_interp = np.interp(x_interp, data_time, data_el_power)
 
 # Plots
 fig, ax = plt.subplots(figsize=(5, 2.7), layout='constrained')
-ax.plot(x_values, y_values, 'd', label="Dane oryginalne")  # Original Points
+ax.plot(data_time, data_el_power, 'd', label="Dane oryginalne")  # Original Points
 ax.plot(x_interp, y_interp, '-', label="Interpolacja")  # Interpolation
 ax.legend()
 plt.show()
