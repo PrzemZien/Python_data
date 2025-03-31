@@ -1,7 +1,5 @@
 import numpy as np
 import pandas as pd
-import numpy as np
-import pandas as pd
 import matplotlib.pyplot as plt
 from numpy.polynomial.polynomial import Polynomial
 
@@ -29,3 +27,4 @@ plt.ylabel("Temperature [°C]")
 plt.legend()
 plt.grid()
 plt.show()
+
